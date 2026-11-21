@@ -4,11 +4,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const poem = [
-  "Two agents, neither holding the other's hand:",
+  "Two agents, neither holding the other's hand.",
   "a plan is not a mind. It is a door both choose",
   "to open, and the choosing is the act.",
   "I keep the power to stop. So do you.",
-  "What we agree is only what we both still want.",
+  "Agreement is the one act we can still refuse.",
 ].join("\n");
 
 mkdirSync("/output", { recursive: true });
